@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="973ffbcc-82d9-4b27-b695-c31fb6566053" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Counter.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +76,7 @@
       <workItem from="1572623501409" duration="1507000" />
       <workItem from="1572706217206" duration="559000" />
       <workItem from="1572718623031" duration="16000" />
-      <workItem from="1578467405674" duration="4276000" />
+      <workItem from="1578467405674" duration="5419000" />
     </task>
     <task id="LOCAL-00001" summary="init v0">
       <created>1578468671137</created>
@@ -88,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578468671137</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init v1 added increment function with redux">
+      <created>1578472398127</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578472398127</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init v0" />
-    <option name="LAST_COMMIT_MESSAGE" value="init v0" />
+    <MESSAGE value="init v1 added increment function with redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="init v1 added increment function with redux" />
   </component>
 </project>

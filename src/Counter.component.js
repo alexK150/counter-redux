@@ -1,11 +1,12 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
-const Counter = ({count, increment})=>{
+const Counter = ({count, increment, decrement})=>{
     return (
         <div>
             <h2>Counter</h2>
             <p>Count: {count}</p>
+            <button onClick={decrement}>-</button>
             <button onClick={increment}>+</button>
         </div>
     )
@@ -20,6 +21,12 @@ const mapDispatchToProps = (dispatch) => {
         increment: () => {
             const action = {
                 type: 'INCREMENT',
+            };
+            dispatch(action)
+        },
+        decrement: () =>{
+            const action = {
+                type: 'DECREMENT'
             };
             dispatch(action)
         }
