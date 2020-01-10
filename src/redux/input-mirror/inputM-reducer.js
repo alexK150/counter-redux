@@ -1,20 +1,16 @@
 const initialState = {
-    count: 0
+    inputValue: ''
 };
 
 export const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case 'INCREMENT':
+        case 'INPUT_CHANGE':
             return {
                 ...state,
-                count: state.count + 1
-            };
-        case 'DECREMENT':
-            return {
-                ...state,
-                count: state.count - 1
+                inputValue: action.text
             };
         default:
             return state
     }
 };
+
